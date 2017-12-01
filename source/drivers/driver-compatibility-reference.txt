@@ -30,37 +30,65 @@ MongoDB Compatibility
    :class: compatibility
 
    * - C Driver Version
-     - MongoDB 2.4
      - MongoDB 2.6
      - MongoDB 3.0
      - MongoDB 3.2
      - MongoDB 3.4
+     - MongoDB 3.6
+
+   * - Version 1.9
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+
+   * - Version 1.8
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     -
+
+   * - Version 1.7
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     -
+
+   * - Version 1.6
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     -
 
    * - Version 1.5
      - |checkmark|
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
+     -
 
    * - Version 1.3
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
+     -
      -
 
    * - Version 1.1.0
      - |checkmark|
      - |checkmark|
-     - |checkmark|
+     -
      -
      -
 
    * - Version 1.0.0
      - |checkmark|
      - |checkmark|
-     - |checkmark|
+     -
      -
      -
 
@@ -106,7 +134,6 @@ MongoDB Compatibility
    :class: compatibility
 
    * - C++ Driver Version
-     - MongoDB 2.4
      - MongoDB 2.6
      - MongoDB 3.0
      - MongoDB 3.2
@@ -117,28 +144,24 @@ MongoDB Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
 
    * - mongocxx-3.0.x
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
-     - 
+     -
 
    * - legacy-1.1.x
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
-     - 
+     -
 
    * - legacy-1.0.x
      - |checkmark|
      - |checkmark|
-     - |checkmark|
-     - 
-     - 
+     -
+     -
 
 .. include:: /includes/older-server-versions-unsupported.rst
 
@@ -188,14 +211,18 @@ MongoDB Compatibility
    :class: compatibility
 
    * - C#/.NET Driver Version
-     - MongoDB 2.4
      - MongoDB 2.6
      - MongoDB 3.0
      - MongoDB 3.2
      - MongoDB 3.4
 
-   * - Version 2.3
+   * - Version 2.4
      - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+
+   * - Version 2.3
      - |checkmark|
      - |checkmark|
      - |checkmark|
@@ -205,11 +232,9 @@ MongoDB Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
      -
 
    * - Version 2.0
-     - |checkmark|
      - |checkmark|
      - |checkmark|
      -
@@ -219,11 +244,9 @@ MongoDB Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
      -
 
    * - Version 1.10
-     - |checkmark|
      - |checkmark|
      - |checkmark|
      -
@@ -253,7 +276,7 @@ Language Compatibility
      -
      -
      - |checkmark|
-     - |checkmark|   
+     - |checkmark|
 
    * - Version 2.2
      -
@@ -297,18 +320,25 @@ MongoDB Compatibility
    :class: compatibility
 
    * - Java Driver Version
-     - MongoDB 2.4
      - MongoDB 2.6
      - MongoDB 3.0
      - MongoDB 3.2
      - MongoDB 3.4
+     - MongoDB 3.6
+
+   * - Version 3.6
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
 
    * - Version 3.5
      - |checkmark|
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
+     -
 
 
    * - Version 3.4
@@ -316,59 +346,52 @@ MongoDB Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
+     -
 
 
    * - Version 3.3
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
+     -
      -
 
    * - Version 3.2
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
+     -
      -
 
    * - Version 3.1
      - |checkmark|
      - |checkmark|
-     - |checkmark|
+     -
      -
      -
 
    * - Version 3.0
      - |checkmark|
      - |checkmark|
-     - |checkmark|
+     -
      -
      -
 
    * - Version 2.14
      - |checkmark|
      - |checkmark|
-     - |checkmark|
      - |checkmark|  [*]_
+     -
      -
 
    * - Version 2.13
      - |checkmark|
      - |checkmark|
-     - |checkmark|
+     -
      -
      -
 
    * - Version 2.12
-     - |checkmark|
-     - |checkmark|
-     -
-     -
-     -
-
-   * - Version 2.11
      - |checkmark|
      -
      -
@@ -455,7 +478,6 @@ MongoDB Compatibility
    :class: compatibility
 
    * - Node.js Driver
-     - MongoDB 2.4
      - MongoDB 2.6
      - MongoDB 3.0
      - MongoDB 3.2
@@ -466,10 +488,8 @@ MongoDB Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
 
    * - >=2.0.14
-     - |checkmark|
      - |checkmark|
      - |checkmark|
      -
@@ -478,27 +498,11 @@ MongoDB Compatibility
    * - >=1.4.29
      - |checkmark|
      - |checkmark|
-     - |checkmark|
      -
      -
 
    * - 1.4.X
      - |checkmark|
-     - |checkmark|
-     -
-     -
-     -
-
-   * - 1.3.X
-     - |checkmark|
-     -
-     -
-     -
-     -
-
-   * - 1.2.X
-     - |checkmark|
-     -
      -
      -
      -
@@ -530,7 +534,7 @@ Language Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-   
+
    * - 2.1.X
      - |checkmark|
      - |checkmark|
@@ -559,20 +563,6 @@ Language Compatibility
      -
      -
 
-   * - 1.3.X
-     - |checkmark|
-     - |checkmark|
-     -
-     -
-     -
-
-   * - 1.2.X
-     - |checkmark|
-     - |checkmark|
-     -
-     -
-     -
-
 .. _reference-compatibility-perl:
 
 Perl Driver Compatibility
@@ -591,7 +581,6 @@ MongoDB Compatibility
    :class: compatibility
 
    * - Perl Driver
-     - MongoDB 2.4
      - MongoDB 2.6
      - MongoDB 3.0
      - MongoDB 3.2
@@ -602,10 +591,8 @@ MongoDB Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
 
    * - 1.6.x
-     - |checkmark|
      - |checkmark|
      - |checkmark|
      - |checkmark|
@@ -615,18 +602,15 @@ MongoDB Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
      -
 
    * - 1.2.x
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
      -
 
    * - 1.0.x
-     - |checkmark|
      - |checkmark|
      - |checkmark|
      -
@@ -639,72 +623,7 @@ MongoDB Compatibility
 Language Compatibility
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. include:: /includes/extracts/perl-driver-compatibility-matrix-language.rst
-
-.. list-table::
-   :header-rows: 1
-   :stub-columns: 1
-   :class: compatibility-large
-
-   * - Perl Driver Version
-     - 5.10
-     - 5.12
-     - 5.14
-     - 5.16
-     - 5.18
-     - 5.20
-     - 5.22
-     - 5.24
-
-   * - 1.8.x
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-
-   * - 1.6.x
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-
-   * - 1.4.x
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-
-   * - 1.2.x
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-
-   * - 1.0.x
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
+The MongoDB Perl driver requires Perl 5.10.1 or later.
 
 .. _reference-compatibility-php:
 
@@ -724,7 +643,6 @@ MongoDB Compatibility
    :class: compatibility
 
    * - PHP Driver
-     - MongoDB 2.4
      - MongoDB 2.6
      - MongoDB 3.0
      - MongoDB 3.2
@@ -735,10 +653,8 @@ MongoDB Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
 
    * - PHPLIB 1.0 + mongodb-1.1
-     - |checkmark|
      - |checkmark|
      - |checkmark|
      - |checkmark|
@@ -748,11 +664,9 @@ MongoDB Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
      -
 
    * - mongodb-1.0
-     - |checkmark|
      - |checkmark|
      - |checkmark|
      -
@@ -761,12 +675,10 @@ MongoDB Compatibility
    * - mongo-1.6
      - |checkmark|
      - |checkmark|
-     - |checkmark|
      -
      -
 
    * - mongo-1.5
-     - |checkmark|
      - |checkmark|
      -
      -
@@ -774,14 +686,6 @@ MongoDB Compatibility
 
    * - mongo-1.4
      - |checkmark|
-     - |checkmark|
-     -
-     -
-     -
-
-   * - mongo-1.3
-     - |checkmark|
-     -
      -
      -
      -
@@ -838,7 +742,7 @@ Language Compatibility
      -
      -
      - |checkmark|
-     - 
+     -
 
    * - mongo-1.6
      - |checkmark|
@@ -898,83 +802,77 @@ MongoDB Compatibility
    :class: compatibility
 
    * - Python Driver
-     - MongoDB 2.4
      - MongoDB 2.6
      - MongoDB 3.0
      - MongoDB 3.2
      - MongoDB 3.4
+     - MongoDB 3.6
+
+   * - 3.6
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+
 
    * - 3.5
      - |checkmark|
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
+     -
 
    * - 3.4
      - |checkmark|
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
+     -
 
    * - 3.3
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
+     -
      -
 
    * - 3.2
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
+     -
      -
 
    * - 3.1
      - |checkmark|
      - |checkmark|
-     - |checkmark|
+     -
      -
      -
 
    * - 3.0
      - |checkmark|
      - |checkmark|
-     - |checkmark|
+     -
      -
      -
 
    * - 2.9
      - |checkmark|
      - |checkmark|
-     - |checkmark|
+     -
      -
      -
 
    * - 2.8
      - |checkmark|
      - |checkmark|
-     - |checkmark|
+     -
      -
      -
 
    * - 2.7
-     - |checkmark|
-     - |checkmark|
-     -
-     -
-     -
-
-   * - 2.6
-     - |checkmark|
-     -
-     -
-     -
-     -
-
-   * - 2.5
      - |checkmark|
      -
      -
@@ -1012,19 +910,19 @@ Python 2 Compatibility
 
    * - 3.4
      -
-     - 
+     -
      - |checkmark|
      - |checkmark|
 
    * - 3.3
      -
-     - 
+     -
      - |checkmark|
      - |checkmark|
 
    * - 3.2
-     - 
-     - 
+     -
+     -
      - |checkmark|
      - |checkmark|
 
@@ -1133,7 +1031,7 @@ Python 3 Compatibility
      -
 
    * - 3.2
-     - 
+     -
      - |checkmark|
      - |checkmark|
      - |checkmark|
@@ -1174,7 +1072,7 @@ Python 3 Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - 
+     -
      -
 
    * - 2.7
@@ -1183,51 +1081,6 @@ Python 3 Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     -
-     -
-
-   * - 2.6
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - 
-     -
-
-   * - 2.5
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     -
-     -
-     -
-
-   * - 2.4
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     -
-     -
-     -
-
-   * - 2.3
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     -
-     -
-     -
-     -
-
-   * - 2.2
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     -
-     -
      -
      -
 
@@ -1254,7 +1107,6 @@ MongoDB Compatibility
    :class: compatibility
 
    * - Motor Driver
-     - MongoDB 2.4
      - MongoDB 2.6
      - MongoDB 3.0
      - MongoDB 3.2
@@ -1265,10 +1117,8 @@ MongoDB Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
 
    * - 1.0
-     - |checkmark|
      - |checkmark|
      - |checkmark|
      - |checkmark|
@@ -1278,11 +1128,9 @@ MongoDB Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
      -
 
    * - 0.6
-     - |checkmark|
      - |checkmark|
      - |checkmark|
      -
@@ -1291,12 +1139,10 @@ MongoDB Compatibility
    * - 0.5
      - |checkmark|
      - |checkmark|
-     - |checkmark|
      -
      -
 
    * - 0.4
-     - |checkmark|
      - |checkmark|
      - |checkmark|
      -
@@ -1304,21 +1150,12 @@ MongoDB Compatibility
 
    * - 0.3
      - |checkmark|
-     - |checkmark|
      -
      -
      -
 
    * - 0.2
      - |checkmark|
-     - |checkmark|
-     -
-     -
-     -
-
-   * - 0.1
-     - |checkmark|
-     -
      -
      -
      -
@@ -1453,7 +1290,7 @@ Language Compatibility
      same version of Python as its supported Tornado versions do.
 
    - For asyncio support, Motor requires Python 3.4+, or
-     Python 3.3 with the `asyncio package from PyPI 
+     Python 3.3 with the `asyncio package from PyPI
      <https://pypi.python.org/pypi/asyncio>`_.
 
    - PyPy is not supported as it runs Motor code slowly.
@@ -1478,7 +1315,6 @@ MongoDB Compatibility
    :class: compatibility
 
    * - Ruby Driver
-     - MongoDB 2.4
      - MongoDB 2.6
      - MongoDB 3.0
      - MongoDB 3.2
@@ -1489,10 +1325,8 @@ MongoDB Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
 
    * - 2.3
-     - |checkmark|
      - |checkmark|
      - |checkmark|
      - |checkmark|
@@ -1502,18 +1336,15 @@ MongoDB Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
      -
 
    * - 2.1
      - |checkmark|
      - |checkmark|
-     - |checkmark|
      -
-     - 
+     -
 
    * - 2.0
-     - |checkmark|
      - |checkmark|
      - |checkmark|
      -
@@ -1522,12 +1353,10 @@ MongoDB Compatibility
    * - 1.12
      - |checkmark|
      - |checkmark|
-     - |checkmark|
      -
      -
 
    * - 1.11
-     - |checkmark|
      - |checkmark|
      -
      -
@@ -1535,21 +1364,6 @@ MongoDB Compatibility
 
    * - 1.10
      - |checkmark|
-     - |checkmark|
-     -
-     -
-     -
-
-   * - 1.9
-     - |checkmark|
-     -
-     -
-     -
-     -
-
-   * - 1.8
-     - |checkmark|
-     -
      -
      -
      -
@@ -1567,7 +1381,7 @@ Language Compatibility
 .. list-table::
    :header-rows: 1
    :stub-columns: 1
-   :class: compatibility
+   :class: compatibility-large
 
    * - Ruby Driver
      - Ruby 1.8.7
@@ -1619,8 +1433,8 @@ Language Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - 
-     - 
+     -
+     -
      - |checkmark|
 
    * - 1.9 - 1.12
@@ -1628,33 +1442,6 @@ Language Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     -
-     -
-     - |checkmark|
-
-   * - 1.8
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-     -
-     -
-     -
-     - |checkmark|
-
-   * - 1.7
-     - |checkmark|
-     - |checkmark|
-     -
-     -
-     -
-     -
-     - |checkmark|
-
-   * - 1.6
-     - |checkmark|
-     - |checkmark|
-     -
-     -
      -
      -
      - |checkmark|
@@ -1676,7 +1463,6 @@ MongoDB Compatibility
    :class: compatibility
 
    * - Scala Driver
-     - MongoDB 2.4
      - MongoDB 2.6
      - MongoDB 3.0
      - MongoDB 3.2
@@ -1687,10 +1473,8 @@ MongoDB Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
 
    * - 2.0
-     - |checkmark|
      - |checkmark|
      - |checkmark|
      - |checkmark|
@@ -1701,17 +1485,14 @@ MongoDB Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
 
    * - 1.1
-     - |checkmark|
      - |checkmark|
      - |checkmark|
      - |checkmark|
      -
 
    * - 1.0
-     - |checkmark|
      - |checkmark|
      - |checkmark|
      -
@@ -1759,7 +1540,7 @@ Language Compatibility
 
 Casbah Compatibility
 --------------------
- 
+
 .. _reference-compatibility-mongodb-casbah:
 
 MongoDB Compatibility
@@ -1773,7 +1554,6 @@ MongoDB Compatibility
    :class: compatibility
 
    * - Casbah
-     - MongoDB 2.4
      - MongoDB 2.6
      - MongoDB 3.0
      - MongoDB 3.2
@@ -1784,10 +1564,8 @@ MongoDB Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-     - |checkmark|
 
    * - 3.0
-     - |checkmark|
      - |checkmark|
      - |checkmark|
      -
@@ -1796,20 +1574,11 @@ MongoDB Compatibility
    * - 2.8
      - |checkmark|
      - |checkmark|
-     - |checkmark|
      -
      -
 
    * - 2.7
      - |checkmark|
-     - |checkmark|
-     -
-     -
-     -
-
-   * - 2.6
-     - |checkmark|
-     -
      -
      -
      -
@@ -1857,23 +1626,5 @@ Language Compatibility
      - |checkmark|
      - |checkmark|
      - |checkmark|
-
-   * - 2.6
-     -
-     - |checkmark|
-     - |checkmark|
-     -
-
-   * - 2.5
-     -
-     - |checkmark|
-     - |checkmark|
-     -
-
-   * - 2.4
-     - |checkmark|
-     - |checkmark|
-     -
-     -
 
 .. include:: /includes/unicode-checkmark.rst
