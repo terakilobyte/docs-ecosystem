@@ -41,6 +41,8 @@ sensitive data secure.
 MongoDB offers several methods that protect your data from unauthorized
 access including:
 
+.. figure:: /figures/security-features.png
+
 * `Role-based access control <https://docs.mongodb.com/manual/core/authorization/>`_
 * `Monitoring and logging <https://docs.mongodb.com/manual/core/auditing/>`_
 * `TLS/SSL network transport encryption <https://docs.mongodb.com/manual/core/security-transport-encryption/>`_
