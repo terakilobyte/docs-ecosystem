@@ -46,9 +46,10 @@ access including:
 * `TLS/SSL network transport encryption <https://docs.mongodb.com/manual/core/security-transport-encryption/>`_
 * `Encryption at rest <https://docs.mongodb.com/manual/core/security-encryption-at-rest/>`_
 
-.. figure:: /figures/security-features.png
-   :align: center
-   :alt: Security Features and Concerns
+..
+  .. figure:: /figures/security-features.png
+    :align: center
+    :alt: Security Features and Concerns
 
 Another MongoDB feature that prevents unauthorized access of data is
 :manual:`Client-Side Field Level Encryption (CSFLE) </core/security-client-side-encryption/>`.
