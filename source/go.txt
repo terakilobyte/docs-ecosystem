@@ -17,7 +17,7 @@ MongoDB Go Driver
 Introduction
 ------------
 
-This is the official MongoDB Go Driver.
+This is the official MongoDB Go Driver Page.
 
 - `General documentation for the MongoDB Go Driver <https://godoc.org/go.mongodb.org/mongo-driver/mongo>`__
 
